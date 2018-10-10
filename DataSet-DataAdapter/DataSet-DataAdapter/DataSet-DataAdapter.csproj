@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Filtrado y Ordenado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtrado y Ordenado.designer.cs">
+      <DependentUpon>Filtrado y Ordenado.cs</DependentUpon>
+    </Compile>
     <Compile Include="PopularDataSet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Filtrado y Ordenado.resx">
+      <DependentUpon>Filtrado y Ordenado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PopularDataSet.resx">
       <DependentUpon>PopularDataSet.cs</DependentUpon>
     </EmbeddedResource>

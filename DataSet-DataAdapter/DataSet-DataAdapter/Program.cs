@@ -16,7 +16,7 @@ namespace DataSet_DataAdapter
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PopularDataSet());
+            Application.Run(new FiltradoOrdenado());
         }
     }
 }
