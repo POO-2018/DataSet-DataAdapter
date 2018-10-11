@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataViewForm.designer.cs">
+      <DependentUpon>DataViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Filtrado y Ordenado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataViewForm.resx">
+      <DependentUpon>DataViewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Filtrado y Ordenado.resx">
       <DependentUpon>Filtrado y Ordenado.cs</DependentUpon>
     </EmbeddedResource>
