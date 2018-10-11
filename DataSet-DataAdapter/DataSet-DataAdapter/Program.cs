@@ -16,7 +16,7 @@ namespace DataSet_DataAdapter
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataViewForm());
+            Application.Run(new GenerarXML());
         }
     }
 }
